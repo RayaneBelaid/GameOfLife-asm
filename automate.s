@@ -246,9 +246,3 @@ end_program:
    li $v0, 10       # exit code service 
    syscall          # for syscall
 
-### Vos éventuelles fonctions doivent être implémentées en dessous !    ###
-### entre les marqueurs VOTRE_CODE_COMMENCE_ICI et VOTRE_CODE_FINI_ICI  ###
-
-# VOTRE_CODE_COMMENCE_ICI
-
-# VOTRE_CODE_FINI_ICI
