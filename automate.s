@@ -27,7 +27,7 @@ othergrid: .space 100
 
 #
 # Si vous avez d'autres déclarations que vous voulez 
-# inclure et utiliser dans votre programme mettez les 
+# inclure et utiliser dans le programme mettez les 
 # en dessous entre les marqueurs indiqués
 #
 # VOS_DECLARATIONS_COMMENCENT_ICI
@@ -68,12 +68,10 @@ Ldix:   .byte 0x0a  # 2 for mod usage
       .text
       .globl main
 
-### Votre fonction principale main doit être implémentée entre    ### 
-### les marqueurs VOTRE_CODE_COMMENCE_ICI et VOTRE_CODE_FINI_ICI  ###
 
 main:
 
-# VOTRE_CODE_COMMENCE_ICI
+# LE_CODE_COMMENCE_ICI
 
             #  Main loop body  #
 ########### the iterations loop #############
@@ -241,7 +239,7 @@ li $v0, 4    # afficher le message "msg3"
 
 ###############################################################################################################
 
-# VOTRE_CODE_FINI_ICI
+# LE_CODE_FINI_ICI
 end_program:   
    li $v0, 10       # exit code service 
    syscall          # for syscall
